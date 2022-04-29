@@ -13,12 +13,18 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
+    "docs": "^0.0.0",
     "prettier": "latest",
-    "turbo": "latest"
+    "turbo": "latest",
+    "workspace": "^0.0.1-preview.1"
   },
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=14.0.0"
   },
-  "packageManager": "npm@6.14.10"
+  "packageManager": "npm@6.14.10",
+  "dependencies": {
+    "doc": "^0.0.3",
+    "next-transpile-modules": "^9.0.0"
+  }
 }
